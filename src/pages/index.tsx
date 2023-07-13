@@ -1,4 +1,4 @@
-// import FormSection from "@/components/FormSection";
+import FormAndBenefitsSection from "@/components/FormAndBenefitsSection";
 import Hero from "@/components/Hero";
 import { Inter } from "next/font/google";
 
@@ -10,7 +10,7 @@ export default function Home() {
    className={`min-h-screen flex-col items-center justify-center ${inter.className} overflow-x-hidden`}
   >
    <Hero />
-   {/* <FormSection /> */}
+   <FormAndBenefitsSection />
   </main>
  );
 }
