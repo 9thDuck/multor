@@ -1,3 +1,5 @@
+import { formInputName } from "./components/FormAndBenefitsSection/components/Form/formSlice";
+
 export const getPlaceholder = (inputName: formInputName) => {
  const inputNameSplitArr: string[] = inputName.split("");
  inputNameSplitArr[0] = inputNameSplitArr[0].toUpperCase();
