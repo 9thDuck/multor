@@ -4,7 +4,7 @@ import Logo from "./assets/Logo";
 const Hero: React.FC = () => {
  return (
   <div className="flex flex-col w-screen h-screen bg-[url('/hero-bg.jpg')] bg-no-repeat bg-cover p-4 sm:p-20 ">
-   <div className="w-[90%] sm:w-96 flex flex-col gap-y-28 h-full bg-opacity bg-white bg-opacity-5">
+   <div className="w-[90%] sm:w-96 flex flex-col justify-around h-full bg-opacity bg-white bg-opacity-5">
     <Logo />
     <h2 className="text-6xl font-semibold">
      Describe the value of booking an appointment

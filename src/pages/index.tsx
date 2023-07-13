@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
  return (
   <main
-   className={`container mx-auto min-h-screen flex-col items-center justify-center ${inter.className} overflow-x-hidden`}
+   className={`min-h-screen flex-col items-center justify-center ${inter.className} overflow-x-hidden`}
   >
    <Hero />
    {/* <FormSection /> */}
