@@ -1,5 +1,6 @@
 import FormAndBenefitsSection from "@/components/FormAndBenefitsSection";
 import Hero from "@/components/Hero";
+import VideoSection from "@/components/VideoSection";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -11,6 +12,7 @@ export default function Home() {
   >
    <Hero />
    <FormAndBenefitsSection />
+   <VideoSection />
   </main>
  );
 }
