@@ -23,7 +23,7 @@ const data = [
 
 const Benefits: React.FC = () => {
  return (
-  <div className="w-full h-1/2 sm:w-[400px] lg:h-1/2 flex flex-col gap-y-10 justify-around">
+  <div className="h-1/2 w-[400px] lg:h-1/2 flex flex-col gap-y-10 justify-around">
    {data.map(({ icon, title, content }) => {
     return (
      <div key={title} className="flex gap-8 text-xl">

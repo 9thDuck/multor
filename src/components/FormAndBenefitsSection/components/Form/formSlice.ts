@@ -42,11 +42,9 @@ export const formSlice = createSlice({
 
    state.data[fieldName] = action.payload.value;
   },
-  clearForm: (state) => {
-   state.data = initialState.data;
-  },
+  resetForm: (state, action) => initialState,
  },
 });
 
-export const { formChange, clearForm } = formSlice.actions;
+export const { formChange, resetForm } = formSlice.actions;
 export default formSlice.reducer;

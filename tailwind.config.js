@@ -6,12 +6,12 @@ module.exports = {
   "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
  ],
  theme: {
-  colors: {
-   formBg: "#002627",
-   formText: "#fff",
-   submitBtn: "rgba(0,184,187,1)",
-  },
   extend: {
+   colors: {
+    formBg: "#002627",
+    formText: "#fff",
+    submitBtn: "rgba(0,184,187,1)",
+   },
    backgroundImage: {
     "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
     "gradient-conic":
