@@ -1,13 +1,20 @@
 import React from "react";
 
-const Logo: React.FC = () => {
+type LogoProps = {
+ color?: string;
+ width: number;
+ height: number;
+};
+
+const Logo: React.FC<LogoProps> = ({ color, width, height }) => {
  return (
   <svg
-   width="138px"
-   height="30px"
+   width={width ? `${width}px` : "138px"}
+   height={height ? `${height}px` : "30px"}
    viewBox="0 0 138 30"
    version="1.1"
    xmlns="http://www.w3.org/2000/svg"
+   fill={color ? color : "black"}
    fillOpacity="0.8"
   >
    <title>Group 7</title>

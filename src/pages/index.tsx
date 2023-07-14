@@ -3,6 +3,8 @@ import FormAndBenefitsSection from "@/components/FormAndBenefitsSection";
 import Hero from "@/components/Hero";
 import Reviews from "@/components/Reviews";
 import VideoSection from "@/components/VideoSection";
+import About from "@/components/AboutSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
  return (
@@ -14,6 +16,8 @@ export default function Home() {
    <VideoSection />
    <Reviews />
    <Features />
+   <About />
+   <Footer />
   </main>
  );
 }
