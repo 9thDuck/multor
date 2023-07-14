@@ -2,8 +2,8 @@ import React from "react";
 
 type LogoProps = {
  color?: string;
- width: number;
- height: number;
+ width?: number;
+ height?: number;
 };
 
 const Logo: React.FC<LogoProps> = ({ color, width, height }) => {
