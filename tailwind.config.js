@@ -11,6 +11,7 @@ module.exports = {
     formBg: "#002627",
     formText: "#fff",
     submitBtn: "rgba(0,184,187,1)",
+    thirdSectionText: "#152f2e",
    },
    backgroundImage: {
     "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

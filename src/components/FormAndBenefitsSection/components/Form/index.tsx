@@ -27,7 +27,7 @@ const Form: React.FC = () => {
   if (!(firstName && lastName && email && phoneNumber && typeOfAppointment))
    return;
 
-  resetForm();
+  dispatch(resetForm());
   setShowSuccessfulSubmissionModal(true);
  };
 
