@@ -1,3 +1,4 @@
+import Features from "@/components/Features";
 import FormAndBenefitsSection from "@/components/FormAndBenefitsSection";
 import Hero from "@/components/Hero";
 import Reviews from "@/components/Reviews";
@@ -12,6 +13,7 @@ export default function Home() {
    <FormAndBenefitsSection />
    <VideoSection />
    <Reviews />
+   <Features />
   </main>
  );
 }
